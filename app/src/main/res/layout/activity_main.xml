@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:id="@+id/frontpage_layout"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:paddingBottom="0dp" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Braille input"
+            android:id="@+id/braille_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:height="80dp"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#7C0000" android:textSize="15dp"
+            android:background="@drawable/but_6" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Voice input"
+            android:id="@+id/voice_button"
+            android:height="80dp"
+            android:layout_below="@+id/braille_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#7C0000" android:textSize="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/but2" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Keyboard input"
+        android:id="@+id/keyboard_button"
+        android:height="80dp"
+        android:layout_below="@+id/voice_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#7C0000" android:textSize="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/but_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Exit"
+        android:id="@+id/exitbut"
+        android:height="80dp"
+        android:layout_below="@+id/voice_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#7C0000" android:textSize="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/but_4" />
+
+</LinearLayout>

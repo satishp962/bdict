@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BDICT</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_braille_input">Braille Input</string>
+    <string name="title_activity_voice_input">Voice Input</string>
+    <string name="title_activity_keyboard_input">Keyboard Input</string>
+
+    <string name="title_activity_braille_input_screen">braille_input_screen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_braille_screen_input">braille_screen_input</string>
+    <string name="title_activity_output_screen">output_screen</string>
+    <string name="title_activity_db">DbActivity</string>
+    <string name="title_activity_sample_db">sample_db</string>
+    <string name="title_activity_confirm_word">confirm_word</string>
+    <string name="empty" />
+
+</resources>
