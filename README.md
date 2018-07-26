@@ -5,8 +5,5 @@ This app contains an dictionary that can be used by using an emulated Braille ke
 The dictionary is an Open Source Dictionary that is used in this app.
 
 ## Screenshots
-
-![alt text] (https://github.com/satishp962/bdict/blob/master/braille_input.png "input")
-![alt text] (https://github.com/satishp962/bdict/blob/master/voice_input.png "voice input")
-![alt text] (https://github.com/satishp962/bdict/blob/master/output_screen.png "output")
+![alt text](https://github.com/satishp962/bdict/blob/master/braille_input.png "input")
 
