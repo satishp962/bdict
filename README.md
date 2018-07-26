@@ -1,2 +1,9 @@
-# BDict - A Accessible Braille Dictionary
-An Accessible Dictionary App for the Visually Impaired persons.
+# BDict - An Accessible Braille Dictionary
+
+This app contains an dictionary that can be used by using an emulated Braille keyboard built using Android. The user can type in the words and get the answers in voice feedback.
+
+The dictionary is an Open Source Dictionary that is used in this app.
+
+## Screenshots
+
+
